@@ -6,3 +6,10 @@ Today, I studied JavaScript concepts such as:
 - Git basics
 - Arrays methods (map, reduce, filter)
 - Loops (for, forEach)
+
+5/12/24
+Event Loop
+Inheritance
+Constructor & Method Overriding
+callback function
+closures
