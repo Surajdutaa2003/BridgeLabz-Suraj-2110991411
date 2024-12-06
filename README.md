@@ -9,8 +9,8 @@ Today, I studied JavaScript concepts such as:
 
 5/12/24
 Topics Covered
-Event Loop
-Inheritance
-Constructor & Method Overriding
-callback function
-closures
+- Event Loop
+- Inheritance
+- Constructor & Method Overriding
+- callback function
+- closures
