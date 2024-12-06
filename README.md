@@ -8,6 +8,7 @@ Today, I studied JavaScript concepts such as:
 - Loops (for, forEach)
 
 5/12/24
+Topics Covered
 Event Loop
 Inheritance
 Constructor & Method Overriding
