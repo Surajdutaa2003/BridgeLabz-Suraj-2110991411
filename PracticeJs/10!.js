@@ -1,7 +1,9 @@
-
-var sum=0;
-for(i=1;i<=10;i++){
-    sum+=i;
-
+function factorialIterative(num) {
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result;
 }
-console.log(sum);
+
+console.log(factorialIterative(10)); // Output: 3628800
