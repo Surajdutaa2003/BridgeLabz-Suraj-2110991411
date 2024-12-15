@@ -10,7 +10,7 @@
 - Calculate the sum of numbers in an array of numbers
 - Calculate the average of the numbers in an array of numbers
 - Create a function that receives an array of numbers as an argument and returns an array containing only the positive numbers
-  - Find the maximum number in an array of numbers
+- Find the maximum number in an array of numbers
 - Print the first 10 Fibonacci numbers without recursion
 - Create a function that will find the nth Fibonacci number using recursion
 - Create a function that will return a Boolean specifying if a number is prime
