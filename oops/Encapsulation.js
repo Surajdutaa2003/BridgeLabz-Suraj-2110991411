@@ -11,7 +11,7 @@ class Person {
     // Getter for age
     getAge() {
         return this.#age;
-    }
+    } 
 
     // Setter for age with validation
     setAge(age) {
