@@ -1,5 +1,5 @@
 const arr = [5, 1, 6, 2, 4, 3];
-
+  
 for (let i = 0; i < arr.length; i++) {
     let temp = arr[i]; // Store the current element
     let j = i;
