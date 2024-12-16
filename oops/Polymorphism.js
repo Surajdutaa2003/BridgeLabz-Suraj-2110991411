@@ -30,3 +30,4 @@ dog.speak(); // Output: The dog barks.
 
 const cat = new Cat();
 cat.speak(); // Output: The cat meows.
+  
