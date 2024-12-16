@@ -15,7 +15,7 @@ class Vehicle {
       console.log("Starting the bike with a kick...");
     }
   }
-  
+   
   const car = new Car();
   car.start(); // Output: Starting the car with a key...
   
