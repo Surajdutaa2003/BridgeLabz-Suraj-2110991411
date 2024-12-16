@@ -1,20 +1,17 @@
-function insertionSort(arr) {
-    for (let i = 1; i < arr.length; i++) {
-        let key = arr[i];
-        let j = i - 1;
+const arr = [5, 1, 6, 2, 4, 3];
 
-        // Current element ko uske sahi position pe daalna
-        while (j >= 0 && arr[j] > key) {
-            arr[j + 1] = arr[j];
-            j = j - 1;
-        }
-        arr[j + 1] = key;
-    }
-    return arr;
+for (let i = 0; i < arr.length; i++) {
+    let temp = arr[i]; // Store the current element
+    let j = i;
     
+    // Shift elements of the sorted subarray to the right to make space for temp
+    while (j > 0 && arr[j - 1] > temp) {
+        arr[j] = arr[j - 1];
+        j = j - 1;
+    }
+    
+    // Place temp in its correct position
+    arr[j] = temp;
 }
 
-// Example usage:
-const array = [12, 11, 13, 5, 6];
-console.log("Sorted array:", insertionSort(array));
-                          
+console.log(arr);
