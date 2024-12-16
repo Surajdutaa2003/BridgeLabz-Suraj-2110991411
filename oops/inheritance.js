@@ -8,7 +8,7 @@ class Animal {
     }
     shout() {
         console.log(this.name + " is barking!");
-    }
+    } 
 }
 
 class Monkey extends Animal {
