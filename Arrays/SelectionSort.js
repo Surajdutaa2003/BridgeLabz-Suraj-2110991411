@@ -9,6 +9,7 @@ for(i=0;i<arr.length;i++){
         arr[i]=arr[min]
         arr[min]=temp;
     }
+    
 }
 
 console.log(arr);
