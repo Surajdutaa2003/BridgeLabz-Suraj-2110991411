@@ -45,20 +45,16 @@ This folder focuses on stack data structures and provides two different implemen
 This repository also demonstrates the **4 pillars of OOP** through various implementations:
 
 1. **Encapsulation**  
-   - Data and methods are encapsulated within classes for modularity and security.  
-   - Example: `stack_implementation.js` uses encapsulated methods to control how elements are pushed or popped from the stack.
+   - Data and methods are encapsulated within classes for modularity and security.
 
 2. **Inheritance**  
-   - Code reuse through class extension.  
-   - Example: `extended_stack.js` extends the basic `stack_implementation` to add new functionalities.
+   - Code reuse through class extension.
 
 3. **Polymorphism**  
-   - Methods behave differently based on the context or class.  
-   - Example: Overriding methods in `extended_stack.js` demonstrates polymorphism by adding custom behavior to inherited methods.
+   - Methods behave differently based on the context or class.
 
 4. **Abstraction**  
-   - Simplified interfaces for complex functionality.  
-   - Example: The stack interface hides internal details (like array manipulation) and exposes only essential methods like `push` and `pop`.
+   - Simplified interfaces for complex functionality.
 
 ---
 
