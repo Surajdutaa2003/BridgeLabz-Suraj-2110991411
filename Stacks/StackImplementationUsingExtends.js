@@ -6,6 +6,7 @@ class Stack extends Array {
     delete() {
         return this.pop(); // Use Array's pop method to remove and return the last element
     }
+    
 
     peek() {
         return this[this.length - 1]; // Access the last element
