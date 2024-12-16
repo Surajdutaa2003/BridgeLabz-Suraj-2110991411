@@ -6,6 +6,7 @@ for(i=0;i<arr.length;i++){
         arr[i]=arr[j]
         arr[j]=temp;
         }
+        
     }
 }
 console.log(arr);
