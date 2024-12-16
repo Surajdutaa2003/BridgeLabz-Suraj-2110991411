@@ -56,7 +56,7 @@ console.log("reduce:", sum);
 // 12. find() - Returns the first element that matches a condition
 let found = combined.find(function (num) {
   return num > 10;
-}); // 20
+}); 
 console.log("find:", found);
 
 // 13. findIndex() - Returns the index of the first element that matches a condition
