@@ -1,35 +1,35 @@
-// let user = {
-//     name: 'bhushan',
-//     age: 30,
-//     salary: 20000
-// }
+let user = {
+    name: 'bhushan',
+    age: 30,
+    salary: 20000
+}
 
-// console.log(user['name'])
-// delete user.age;
+console.log(user['name'])
+delete user.age;
 
-// console.log(user)
-// console.log(user.age)
-// console.log(user.salary)
+console.log(user)
+console.log(user.age)
+console.log(user.salary)
 
-// console.log('age' in user)  // this is the way for checking whether property is present or not in an object
+console.log('age' in user)  // this is the way for checking whether property is present or not in an object
 
 
-// if ('age' in user) {
-//     console.log('Property present')
-// } else {
-//     console.log('Property not present')
-// }
+if ('age' in user) {
+    console.log('Property present')
+} else {
+    console.log('Property not present')
+}
 
-// if (user.age !== undefined) {
-//   console.log("Property present");
-// } else {
-//   console.log("Property not present");
-// }
+if (user.age !== undefined) {
+  console.log("Property present");
+} else {
+  console.log("Property not present");
+}
 
 // for-in loop for an object => return keys of an object
-// for (let i in user) {
-//     console.log("key=>",i,"value=>", user[i])
-// }
+for (let i in user) {
+    console.log("key=>",i,"value=>", user[i])
+}
 
 let newObject1 = {
     name: 'Bhushan',
