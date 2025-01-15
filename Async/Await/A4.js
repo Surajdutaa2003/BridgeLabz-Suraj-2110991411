@@ -14,7 +14,7 @@ async function fetchSequential(){
         console.log("error caught",error);
     }
 }
-// fetchSequential();
+fetchSequential();
 // async function fetchSequential() {
 //     try {
 //         console.log("Fetching first resource...");
