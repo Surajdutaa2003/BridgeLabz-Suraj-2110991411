@@ -3,3 +3,8 @@ const shallowCopy = { ...original };
 
 shallowCopy.name = "Ravi";
 shallowCopy.details.age = 30; 
+console.log(original);
+console.log(shallowCopy);
+
+
+
